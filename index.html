@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Space+Mono:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+  </head>
+  <body> 
+    <img class="firstImage" src="img/SPLITTER.png">
+    
+    <div class="rectangle ">
+      <div class="start">
+          <div class="inputDiv" >
+            <label class="billLabel" for="bill-input">Bill</label>
+            <input class="billInput" id="bill-input" type="number"  min="0" oninput="validity.valid||(value='');"> 
+            </div>
+         <h1 class="selectip">Select Tip % </h1>
+    <div class="button-div">
+        <button class="tip" >5%</button>
+        <button class="tip">10%</button>
+        <button class="tip">20%</button>
+        <button class="tip">25%</button>
+        <button class="tip">50%</button>
+       <input id="custom" type="number" onclick="value=``"  class="cutomm">
+    </div>
+
+
+  <div class="inputTwo">
+    <label class="peopleInput" for="people-input" class="">Number of People</label>
+    <input type="number" id="people-input" class="input2" min="1" oninput="validity.valid||(value='');" >
+  </div>
+  </div>
+
+
+    <div class="result">
+
+       <div class="tip-amount"> <h1 class="tips-amount"> Tip amount </h1>
+        <h1 class="person/">/ person</h1>
+        </div>
+        <h1  class="tip-result"id="tip-result">0.00$</h1>
+<hr>
+<div class="total-div">
+        <h1 class="tot">Total <h/1> 
+       <h1>  / person</h1>
+  </div>
+        <h1  class="totalresult" id="total-result">0.00$</h1>
+        <button  class="reset" id="reset">Reset</button>
+      </div>
+    
+  </div>
+<script src="./script.js"></script>
+  </body>

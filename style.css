@@ -1,0 +1,313 @@
+body{
+    margin: 0px;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: #C5E4E7;
+}
+.firstImage{
+   width: 85px;
+   height: 53px;
+   display: flex;
+   margin: auto;
+   transform: translateY(50px);
+   
+}
+.rectangle{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    transform: translateY(90px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.start{
+    position: relative;
+    width: 83%;
+}
+.inputDiv{
+    position: relative;
+    width: 83%;
+    
+
+}
+
+.billInput{
+    width: 85%;
+    height: 40px;
+    display: flex;
+    background: #F3F9FA;
+    border-radius: 5px;
+    background-image: url(img/dollars.png); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  background-repeat: no-repeat;
+  /* background-attachment: initial; */
+  background-position: left;
+  background-position-x: 10px;
+font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 36px;
+/* identical to box height */
+padding-right: 15px;
+
+text-align: right;
+cursor: pointer;
+color: #00474B;
+}
+
+.billLabel{
+    
+font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+color: #5E7A7D;
+cursor: pointer;
+}
+.tip{
+    width: 150px;
+    height: 50px;
+    background: #00474B;
+border-radius: 5px;
+font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 36px;
+/* identical to box height */
+
+text-align: center;
+cursor: pointer;
+color: #FFFFFF
+}
+hr{
+    width: 100%;
+}
+h1{
+    font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+color: #5E7A7D;
+}
+.button-div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: stretch;
+    height: 200px;
+}
+.inputTwo{
+    position: relative;
+    width: 85%;
+
+    
+}
+.input2{
+    width: 85%;
+    height: 40px;
+    display: flex;
+    background: #F3F9FA;
+    border-radius: 5px;
+    background-image: url(img/Group\ 8.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position-x: 10px;
+    font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 36px;
+/* identical to box height */
+padding-right: 20px;
+text-align: right;
+cursor: pointer;
+color: #00474B
+}
+.peopleInput{
+font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+color: #5E7A7D;
+cursor: pointer;
+}
+.result{
+    margin-top: 50px;
+    width: 85%;
+background: #00474B;
+border-radius: 15px;
+display: flex;
+flex-direction: column;
+padding-bottom: 30px;
+}
+
+.reset{
+    width: 85%;
+    height: 33px;
+    align-items: center;
+    justify-content: center;
+    background: #26C2AE;
+    border-radius: 5px;
+    margin: auto;
+    cursor: pointer;
+}
+.button-div :active{
+    background-color: #26C2AE;
+}
+.tip-result{
+font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 47px;
+text-align: right;
+letter-spacing: -0.666667px;
+color: #26C2AE;
+transform: translateY(-50%);
+padding-right: 20px;
+
+}
+.totalresult{
+font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 47px;
+text-align: right;
+letter-spacing: -0.666667px;
+color: #26C2AE;
+transform: translateY(-50%);
+padding-right: 20px;
+
+}
+.tips-amount{
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    
+}
+.tip-amount{
+    transform: translateY(60%);
+    margin-left: 30px;
+}
+.total-div{
+    transform: translateY(60%);
+    margin-left: 30px;
+}
+.tot{
+    font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+
+color: #FFFFFF;
+}
+.otherNum{
+    margin-top: 100px;
+}
+.cutomm{
+    width: 150px;
+    height: 50px;
+    background: #00474B;
+border-radius: 5px;
+font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 36px;
+cursor: pointer;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF
+}
+@media  (min-width: 580px){
+ body{
+    background-color: #C5E4E7;
+    width: 100%;
+    height: 100vh;
+    margin: 0px;
+    position: relative;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+    
+ }
+ .rectangle{
+    margin: auto;
+    width: 800px;;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    background-color: white;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    transform: translateY(90px);
+ }
+
+ .start{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    width: 41%;
+ }
+ .result{
+    width: 41%;
+ }
+ .tip{
+    width: 120px;
+    
+    height: 50px;
+    background: #00474B;
+    border-radius: 5px;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+ }
+ .inputDiv{
+    position: relative;
+    width: 100%;
+ }
+ .inputTwo{
+    width: 100%;
+ }
+ .cutomm{
+    width: 120px;
+    height: 50px;
+    background: #00474B;
+    border-radius: 5px;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+ }
+}
